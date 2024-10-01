@@ -104,8 +104,6 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
-
-
 .menu-links a {
   display: block;
   padding: 10px;
@@ -120,29 +118,29 @@ a:hover {
   list-style: none;
 }
 
-.menu-links.open{
+.menu-links.open {
   max-height: 300px;
 }
 
 .hamburger-icon.open span:first-child {
-transform: rotate(45deg) translate(10px , 5px);
+  transform: rotate(45deg) translate(10px, 5px);
 }
 
 .hamburger-icon.open span:nth-child(2) {
-opacity: 0;
+  opacity: 0;
 }
 
 .hamburger-icon.open span:last-child {
-transform: rotate(-45deg) translate(10px , -5px);
+  transform: rotate(-45deg) translate(10px, -5px);
 }
 
-.hamburger-icon span:first-child{
+.hamburger-icon span:first-child {
   transform: none;
 }
-.hamburger-icon span:first-child{
+.hamburger-icon span:first-child {
   opacity: 1;
 }
-.hamburger-icon span:first-child{
+.hamburger-icon span:first-child {
   transform: none;
 }
 
@@ -197,7 +195,7 @@ section {
   text-align: center;
 }
 
-#socials-container{
+#socials-container {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -207,12 +205,12 @@ section {
 /* ICONS */
 .icon {
   cursor: pointer;
-height: 2rem;
+  height: 2rem;
 }
 
 /* BUTTON */
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -226,15 +224,15 @@ height: 2rem;
   border-radius: 2rem;
 }
 
-.btn-color-1, 
+.btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
-.btn-color-1:hover, 
+.btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
 }
-.btn-color-1, 
+.btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
   color: white;
@@ -254,4 +252,57 @@ height: 2rem;
 
 .btn-container {
   gap: 1rem;
+}
+
+/* ABOUT SECTION*/
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section_pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
