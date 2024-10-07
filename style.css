@@ -412,3 +412,14 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
+/* CONTACT FOOTER */
+
+footer {
+  height: 26VH;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
