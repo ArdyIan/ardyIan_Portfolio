@@ -261,9 +261,10 @@ section {
 }
 
 .about-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
 }
 
 .about-details-container {
@@ -294,6 +295,8 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  width: calc(15% - 1rem); /* Setengah lebar dengan gap diperhitungkan */
+  box-sizing: border-box;
 }
 
 .section-container {
@@ -316,7 +319,7 @@ section {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   margin-bottom: 2rem;
 }
 
@@ -416,7 +419,7 @@ article .icon {
 /* CONTACT FOOTER */
 
 footer {
-  height: 26VH;
+  height: 26vh;
   margin: 0 1rem;
 }
 
